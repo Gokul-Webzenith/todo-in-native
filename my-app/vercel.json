@@ -1,5 +1,4 @@
 {
   "framework": null,
-  "buildCommand": "pnpm build:server",
-  "outputDirectory": "."
+  "buildCommand": "pnpm build:server"
 }
