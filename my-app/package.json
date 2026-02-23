@@ -8,7 +8,7 @@
   ],
 
   "scripts": {
-    "build": "turbo build",
+    "build:server": "pnpm --filter @repo/db build && pnpm --filter @repo/server build",
     "dev": "turbo run dev",
     "start": "turbo run start",
     "lint": "turbo lint",
