@@ -3,18 +3,21 @@
     "target": "es2022",
     "module": "esnext",
     "moduleResolution": "bundler",
+
     "strict": true,
-    "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "types": ["node"],
+
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx",
+
     "outDir": "dist",
 
     "baseUrl": ".",
     "paths": {
-      "@repo/db": ["../packages/db/src"]
+      "@repo/db": ["../packages/db/src"],
+      "@repo/schemas": ["../packages/schemas/src"]   // 👈 add this
     }
   },
   "include": ["src", "api"],
