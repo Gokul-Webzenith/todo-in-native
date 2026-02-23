@@ -1,4 +1,4 @@
 {
   "framework": null,
-  "buildCommand": "pnpm build server"
+  "buildCommand": "pnpm build:server"
 }
