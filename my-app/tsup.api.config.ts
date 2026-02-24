@@ -8,4 +8,7 @@ export default defineConfig({
   platform: "node",
   outDir: "api",
   clean: true,
+
+
+    external: ["@repo/db"],
 });
