@@ -1,11 +1,9 @@
 {
   "framework": null,
-
   "buildCommand": "pnpm run build",
-
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs20.x"
+      "runtime": "@vercel/node"
     }
   }
 }
